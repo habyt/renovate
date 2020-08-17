@@ -4,5 +4,15 @@
   "schedule": ["every weekend"],
   "dependencyDashboard": true,
   "stabilityDays": 3,
-  "prCreation": "not-pending"
+  "prCreation": "not-pending",
+  "packageRules": [
+    {
+      "groupName": "definitelyTyped",
+      "packagePatterns": ["^@types/"]
+    },
+    {
+      "groupName": "jest",
+      "packageNames": ["jest", "ts-jest", "@types/jest"]
+    }
+  ]
 }
