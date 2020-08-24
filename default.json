@@ -12,6 +12,14 @@
       "automerge": true
     },
     {
+      "groupName": "equ",
+      "packagePatterns": ["^@equ-lang/"]
+    },
+    {
+      "groupName": "homefully",
+      "packagePatterns": ["^@homefully/"]
+    },
+    {
       "groupName": "definitelyTyped",
       "packagePatterns": ["^@types/"]
     },
