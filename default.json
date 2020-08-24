@@ -7,6 +7,10 @@
   "prCreation": "not-pending",
   "packageRules": [
     {
+      "updateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    },
+    {
       "groupName": "definitelyTyped",
       "packagePatterns": ["^@types/"]
     },
