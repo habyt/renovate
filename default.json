@@ -12,19 +12,25 @@
     },
     {
       "groupName": "equ",
-      "packagePatterns": ["^@equ-lang/"]
+      "packagePatterns": ["^@equ-lang/"],
+      "automerge": true
     },
     {
       "groupName": "homefully",
-      "packagePatterns": ["^@homefully/"]
+      "packagePatterns": ["^@homefully/"],
+      "automerge": true
+
     },
     {
       "groupName": "definitelyTyped",
-      "packagePatterns": ["^@types/"]
+      "packagePatterns": ["^@types/"],
+      "automerge": true
+
     },
     {
       "groupName": "jest",
-      "packageNames": ["jest", "ts-jest", "@types/jest"]
+      "packageNames": ["jest", "ts-jest", "@types/jest"],
+      "automerge": true
     }
   ]
 }
