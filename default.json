@@ -1,7 +1,6 @@
 {
   "extends": ["config:base"],
   "labels": ["patch"],
-  "schedule": ["every weekend"],
   "dependencyDashboard": true,
   "stabilityDays": 3,
   "prCreation": "not-pending",
