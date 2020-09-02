@@ -4,6 +4,7 @@
   "dependencyDashboard": true,
   "stabilityDays": 3,
   "prCreation": "not-pending",
+  "prHourlyLimit": 2,
   "packageRules": [
     {
       "updateTypes": ["minor", "patch", "pin", "digest"],
