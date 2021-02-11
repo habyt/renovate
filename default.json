@@ -5,32 +5,11 @@
   "stabilityDays": 3,
   "prCreation": "not-pending",
   "prHourlyLimit": 2,
-  "prConcurrentLimit": 2,
+  "schedule": "on tuesday",
   "packageRules": [
     {
-      "updateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true
-    },
-    {
-      "groupName": "equ",
-      "packagePatterns": ["^@equ-lang/"],
-      "automerge": true
-    },
-    {
-      "groupName": "homefully",
-      "packagePatterns": ["^@homefully/"],
-      "automerge": true
-
-    },
-    {
-      "groupName": "definitelyTyped",
-      "packagePatterns": ["^@types/"],
-      "automerge": true
-
-    },
-    {
-      "groupName": "jest",
-      "packageNames": ["jest", "ts-jest", "@types/jest"],
+      "groupName": "minor-upgrades",
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true
     }
   ]
